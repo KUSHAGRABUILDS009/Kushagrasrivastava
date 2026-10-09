@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#0b0f14">
+  <meta name="description" content="Kushagra Builds — a student portfolio showcasing robotics, electronics, engineering projects, and prototypes.">
+
+  <title>Kushagra Builds | Kushagra Srivastava</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Intro animation -->
+  <div class="loader" id="loader">
+    <div class="loader-logo">K<span>S</span></div>
+    <div class="loader-line"></div>
+    <p>KUSHAGRA BUILDS</p>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <a href="#home" class="brand">
+      <span class="brand-mark">K<span>S</span></span>
+      <span class="brand-name">KUSHAGRA<span> BUILDS</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-grid"></div>
+
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          STUDENT · ENGINEERING ENTHUSIAST
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Kushagra<br>
+          <span class="gradient-text">Srivastava.</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Aspiring Engineer <span>·</span> Robotics <span>·</span> Electronics
+        </h2>
+
+        <p class="hero-description">
+          I enjoy turning ideas into working prototypes.
+          From robotics and electronics to mechanical design,
+          I learn best by building, testing, and improving.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">
+            Explore My Projects <span>↗</span>
+          </a>
+
+          <a href="#about" class="button button-secondary">
+            Get to Know Me
+          </a>
+        </div>
+
+        <div class="hero-location">
+          <span>⌖</span> Kanpur, India
+        </div>
+      </div>
+
+      <!-- CSS-generated engineering graphic -->
+      <div class="hero-visual" aria-label="Decorative engineering-inspired graphic">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="core">
+          <div class="core-inner">KS</div>
+        </div>
+
+        <span class="orbit-label label-top">DESIGN</span>
+        <span class="orbit-label label-right">BUILD</span>
+        <span class="orbit-label label-bottom">IMPROVE</span>
+
+        <span class="cross cross-one">+</span>
+        <span class="cross cross-two">+</span>
+        <span class="cross cross-three">+</span>
+      </div>
+
+      <div class="hero-bottom">
+        <span>THINK.</span>
+        <span>BUILD.</span>
+        <span>TEST.</span>
+        <span>IMPROVE.</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-padding" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>The <span class="gradient-text">curious builder.</span></h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-main">
+          <p class="about-lead">
+            What if I could build that myself?
+          </p>
+
+          <p>
+            That question is what draws me towards engineering.
+            Whenever I come across an interesting machine or device,
+            I want to understand how it works and whether I can build
+            something similar.
+          </p>
+
+          <p>
+            I'm a Class XII student studying Physics, Chemistry and
+            Mathematics under the ISC board. Outside the classroom,
+            I enjoy experimenting with electronics, constructing
+            mechanical systems and developing practical prototypes.
+          </p>
+
+          <p>
+            I don't claim to know everything. I'm here to learn,
+            experiment, make mistakes and keep getting better.
+          </p>
+        </div>
+
+        <div class="about-side">
+          <div class="info-card">
+            <span class="info-number">01</span>
+            <h3>Build to Learn</h3>
+            <p>Understanding ideas through hands-on experiments.</p>
+          </div>
+
+          <div class="info-card">
+            <span class="info-number">02</span>
+            <h3>Think Practically</h3>
+            <p>Exploring how concepts can become useful devices.</p>
+          </div>
+
+          <div class="info-card">
+            <span class="info-number">03</span>
+            <h3>Keep Improving</h3>
+            <p>Learning from every prototype, test and failure.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="interest-strip">
+        <span>ROBOTICS</span>
+        <span>ELECTRONICS</span>
+        <span>AEROSPACE</span>
+        <span>PRODUCT DESIGN</span>
+        <span>PROTOTYPING</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-padding projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">02 / SELECTED WORK</p>
+        <h2>Ideas made <span class="gradient-text">real.</span></h2>
+        <p class="section-description">
+          A selection of projects I've built, tested or am currently developing.
+          Some projects are still works in progress.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card featured-project">
+          <div class="project-art vrls-art">
+            <span class="art-label">ENGINEERING PROJECT / 01</span>
+            <div class="vrls-diagram">
+              <div class="vrls-ring"></div>
+              <div class="vrls-center"></div>
+              <div class="vrls-arm"></div>
+              <div class="vrls-payload"></div>
+              <span class="diagram-caption">ROTATIONAL SYSTEM</span>
+            </div>
+            <span class="art-index">01</span>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="tag">TEAM LEADER</span>
+              <span class="project-year">2025</span>
+            </div>
+
+            <h3>VRLS — Rotational Satellite Launch System</h3>
+
+            <p>
+              A team-built engineering prototype exploring a rotational
+              approach to launching a payload vertically.
+            </p>
+
+            <div class="project-facts">
+              <span>Arduino Uno</span>
+              <span>Mechanical Design</span>
+              <span>3D Printing</span>
+            </div>
+
+            <button class="details-toggle" aria-expanded="false">
+              Read case study <span>＋</span>
+            </button>
+
+            <div class="project-details">
+              <h4>The idea</h4>
+              <p>
+                I proposed the project concept and led a four-person team
+                to develop a prototype inspired by alternative launch
+                system concepts.
+              </p>
+
+              <h4>My contribution</h4>
+              <p>
+                I helped develop the original blueprint, handled much
+                of the mechanical and robotic construction, designed
+                the 3D-printable release mechanism and participated in
+                prototype testing.
+              </p>
+
+              <h4>Testing and recognition</h4>
+              <p>
+                Our prototype achieved a vertical launch height of
+                approximately 10 feet. The project received third place
+                at the HBTU Tech Exhibition in Kanpur in 2025.
+              </p>
+
+              <p class="disclaimer">
+                This was a student prototype, not an operational
+                satellite-launch vehicle.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-art car-art">
+            <span class="art-label">ROBOTICS / 02</span>
+            <div class="car-visual">
+              <div class="car-body"></div>
+              <div class="car-cabin"></div>
+              <div class="car-wheel wheel-left"></div>
+              <div class="car-wheel wheel-right"></div>
+              <div class="car-beam"></div>
+            </div>
+            <span class="art-index">02</span>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="tag">COMPLETED</span>
+              <span class="project-year">CLASS V</span>
+            </div>
+
+            <h3>Remote-Controlled Car</h3>
+
+            <p>
+              A homemade RC car assembled from separate motors,
+              batteries, wires and other components instead of a
+              ready-made kit.
+            </p>
+
+            <div class="project-facts">
+              <span>Motors</span>
+              <span>Wiring</span>
+              <span>Assembly</span>
+            </div>
+
+            <button class="details-toggle" aria-expanded="false">
+              Read case study <span>＋</span>
+            </button>
+
+            <div class="project-details">
+              <h4>The build</h4>
+              <p>
+                I assembled the car from individual components,
+                exploring how the electrical and mechanical parts
+                work together to produce movement.
+              </p>
+
+              <h4>What I learned</h4>
+              <p>
+                The project introduced me to component selection,
+                basic wiring and the process of turning separate
+                parts into a working build.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-art helmet-art">
+            <span class="art-label">ELECTRONICS / 03</span>
+            <div class="helmet-visual">
+              <div class="helmet-outline">
+                <div class="helmet-eye eye-left"></div>
+                <div class="helmet-eye eye-right"></div>
+              </div>
+            </div>
+            <span class="art-index">03</span>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="tag tag-progress">IN DEVELOPMENT</span>
+              <span class="project-year">CURRENT</span>
+            </div>
+
+            <h3>Gesture-Controlled Iron Man Helmet Eyes</h3>
+
+            <p>
+              A wearable electronics project designed to switch
+              helmet eye lights on when a hand wave is detected,
+              without using a microcontroller.
+            </p>
+
+            <div class="project-facts">
+              <span>Sensor Circuit</span>
+              <span>LED Lighting</span>
+              <span>Rechargeable</span>
+            </div>
+
+            <button class="details-toggle" aria-expanded="false">
+              Read case study <span>＋</span>
+            </button>
+
+            <div class="project-details">
+              <h4>The objective</h4>
+              <p>
+                Create a compact lighting circuit that responds
+                to a hand gesture while fitting inside a helmet.
+              </p>
+
+              <h4>Current stage</h4>
+              <p>
+                The circuit is under development, with component
+                integration and testing still in progress.
+              </p>
+
+              <p class="disclaimer">
+                This project is not yet presented as a completed build.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-art motion-art">
+            <span class="art-label">AUTOMATION / 04</span>
+            <div class="motion-visual">
+              <div class="motion-lamp"></div>
+              <div class="motion-rays"></div>
+              <div class="motion-sensor"></div>
+            </div>
+            <span class="art-index">04</span>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="tag">WORKING</span>
+              <span class="project-year">COMPLETED</span>
+            </div>
+
+            <h3>Motion Sensor Light</h3>
+
+            <p>
+              An automatic lighting system designed to turn a light
+              on when movement is detected.
+            </p>
+
+            <div class="project-facts">
+              <span>Motion Detection</span>
+              <span>Electronics</span>
+              <span>Automation</span>
+            </div>
+
+            <button class="details-toggle" aria-expanded="false">
+              Read case study <span>＋</span>
+            </button>
+
+            <div class="project-details">
+              <h4>How it works</h4>
+              <p>
+                A motion-detection circuit triggers the light when
+                movement is detected.
+              </p>
+
+              <h4>Project status</h4>
+              <p>
+                The prototype is completed and working. The exact
+                sensor and circuit specifications can be added after
+                they are documented.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card">
+          <div class="project-art curtain-art">
+            <span class="art-label">MECHANICAL AUTOMATION / 05</span>
+            <div class="curtain-visual">
+              <div class="curtain-rail"></div>
+              <div class="curtain-panel curtain-one"></div>
+              <div class="curtain-panel curtain-two"></div>
+              <div class="curtain-motor"></div>
+            </div>
+            <span class="art-index">05</span>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="tag">WORKING PROTOTYPE</span>
+              <span class="project-year">ONGOING IMPROVEMENTS</span>
+            </div>
+
+            <h3>Automated Curtain Opener</h3>
+
+            <p>
+              A motorised mechanism that opens or closes curtains
+              at the press of a button.
+            </p>
+
+            <div class="project-facts">
+              <span>Motor Control</span>
+              <span>Mechanisms</span>
+              <span>Automation</span>
+            </div>
+
+            <button class="details-toggle" aria-expanded="false">
+              Read case study <span>＋</span>
+            </button>
+
+            <div class="project-details">
+              <h4>The idea</h4>
+              <p>
+                Make an everyday household task easier using a
+                simple motor-driven mechanism.
+              </p>
+
+              <h4>Current status</h4>
+              <p>
+                The prototype works, and improvements to its
+                mechanism and reliability are ongoing.
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-padding" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">03 / CAPABILITIES</p>
+        <h2>Tools of the <span class="gradient-text">trade.</span></h2>
+        <p class="section-description">
+          Practical skills developed through building and experimenting.
+          Skill levels reflect my current experience.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Robotics & Robot Building</h3>
+            <span>INTERMEDIATE</span>
+          </div>
+          <div class="skill-track"><span style="width: 65%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Electronics & Circuit Assembly</h3>
+            <span>ADVANCED</span>
+          </div>
+          <div class="skill-track"><span style="width: 80%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Electrical Wiring</h3>
+            <span>ADVANCED</span>
+          </div>
+          <div class="skill-track"><span style="width: 80%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Soldering & Micro-Soldering</h3>
+            <span>INTERMEDIATE</span>
+          </div>
+          <div class="skill-track"><span style="width: 60%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>3D Printing & Prototyping</h3>
+            <span>INTERMEDIATE</span>
+          </div>
+          <div class="skill-track"><span style="width: 60%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Mechanical Construction</h3>
+            <span>INTERMEDIATE</span>
+          </div>
+          <div class="skill-track"><span style="width: 65%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>3D CAD Design</h3>
+            <span>BEGINNER</span>
+          </div>
+          <div class="skill-track"><span style="width: 35%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Arduino & Microcontrollers</h3>
+            <span>BEGINNER</span>
+          </div>
+          <div class="skill-track"><span style="width: 30%"></span></div>
+        </div>
+
+      </div>
+
+      <p class="skills-note">
+        These indicators are approximate self-assessments, not formal
+        certifications or standardised test scores.
+      </p>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section section-padding achievements-section" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">04 / MILESTONES</p>
+        <h2>Small wins. <span class="gradient-text">Real progress.</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-year">2025</div>
+          <div class="timeline-content">
+            <span class="tag">ENGINEERING</span>
+            <h3>Third Place — HBTU Tech Exhibition</h3>
+            <p>
+              Recognised for the VRLS project as team leader,
+              coordinating a four-person team.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-year">PERFORMANCES</div>
+          <div class="timeline-content">
+            <span class="tag">MUSIC</span>
+            <h3>Four Guitar Shows</h3>
+            <p>
+              Performed guitar at school events, public events
+              and private functions.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-year">CLASS VI</div>
+          <div class="timeline-content">
+            <span class="tag">PUBLIC SPEAKING</span>
+            <h3>First Prize — Stand-Up Comedy</h3>
+            <p>Won first prize in a school stand-up comedy
+              </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-year">CLASS V</div>
+          <div class="timeline-content">
+            <span class="tag">MUSIC</span>
+            <h3>First Prize — Singing</h3>
+            <p>Received first prize in a school singing competition.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-year">CLASSES I–III</div>
+          <div class="timeline-content">
+            <span class="tag">ACADEMIC</span>
+            <h3>Spelling Bee Certificates</h3>
+            <p>Received spelling bee certificates across three school years.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Education and experience -->
+    <section class="section section-padding" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">05 / BACKGROUND</p>
+        <h2>Learning the <span class="gradient-text">fundamentals.</span></h2>
+      </div>
+
+      <div class="background-grid">
+
+        <article class="background-card">
+          <span class="background-icon">01</span>
+          <p class="eyebrow">EDUCATION</p>
+          <h3>Class XII — ISC</h3>
+          <p>Science stream: Physics, Chemistry and Mathematics.</p>
+          <span class="background-footnote">Expected completion: 2027</span>
+        </article>
+
+        <article class="background-card">
+          <span class="background-icon">02</span>
+          <p class="eyebrow">TEAMWORK</p>
+          <h3>Engineering Team Leader</h3>
+          <p>
+            Led a four-person team for the VRLS prototype and
+            participated in a technical exhibition.
+          </p>
+        </article>
+
+        <article class="background-card">
+          <span class="background-icon">03</span>
+          <p class="eyebrow">HANDS-ON EXPERIENCE</p>
+          <h3>Independent Projects</h3>
+          <p>
+            Built electronics, mechanical and automation prototypes
+            to explore practical engineering concepts.
+          </p>
+        </article>
+
+      </div>
+    </section>
+ <!-- Interests -->
+    <section class="section section-padding interests-section" id="interests">
+      <div class="section-heading">
+        <p class="eyebrow">06 / BEYOND ENGINEERING</p>
+        <h2>More than <span class="gradient-text">circuits.</span></h2>
+      </div>
+
+      <div class="interest-grid">
+        <article class="interest-card">
+          <span class="interest-symbol">⚙</span>
+          <h3>Engineering</h3>
+          <p>Robotics, aerospace, electronics and product design.</p>
+        </article>
+
+        <article class="interest-card">
+          <span class="interest-symbol">♫</span>
+          <h3>Guitar</h3>
+          <p>Playing music and performing at different events.</p>
+        </article>
+
+        <article class="interest-card">
+          <span class="interest-symbol">◎</span>
+          <h3>Cricket</h3>
+          <p>Following and playing a sport that rewards skill and teamwork.</p>
+        </article>
+
+        <article class="interest-card">
+          <span class="interest-symbol">✳</span>
+          <h3>Cooking</h3>
+          <p>Experimenting in the kitchen and learning through practice.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-padding contact-section" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">07 / GET IN TOUCH</p>
+
+        <h2>Have an idea?<br>
+          <span class="gradient-text">Let's connect.</span>
+        </h2>
+
+        <p>
+          I'm interested in learning from people who build things,
+          exploring engineering opportunities and connecting with
+          others who enjoy turning ideas into reality.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            class="button button-primary"
+            href="https://www.linkedin.com/in/kushagra-srivastava-553766425/"
+            target="_blank"
+            rel="noopener noreferrer">
+            Connect on LinkedIn
+            </a>
+
+          <a class="button button-secondary" href="#home">
+            Back to Top ↑
+          </a>
+        </div>
+
+        <p class="contact-note">
+          Professional email: coming soon.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="footer-brand">
+      KS <span>KUSHAGRA BUILDS</span>
+    </a>
+
+    <p>Designed around curiosity. Built one project at a time.</p>
+
+    <p class="footer-copy">
+      © <span id="currentYear"></span> Kushagra Srivastava
+    </p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
